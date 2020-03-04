@@ -10,15 +10,15 @@ function myFunction() {
 
   if (hours < 12) {
     selector1.innerHTML = "Good Morning!"
-    img.src = "morning.png"
+    img.src = "images/morning.png"
     document.body.style.background = "#f8da51"
   } else if (hours < 18){
     selector1.innerHTML = "Good Afternoon!"
-    img.src = "afternoon.png"
+    img.src = "images/afternoon.png"
     document.body.style.background = "#eeaf49"
   } else {
     selector1.innerHTML = "Good Night!"
-    img.src = "night.png"
+    img.src = "images/night.png"
     document.body.style.background = "#20162e"
   };
 };
